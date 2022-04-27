@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<PackageId>MikyM.Net5.Common.DataAccessLayer</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Krzysztof Kupisz</Authors>
+		<PackageDescription>Data access layer.</PackageDescription>
+		<RepositoryUrl>https://github.com/MikyM/MikyM.Net5.Common.DataAccessLayer</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<LangVersion>9</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.3.0" />
+		<PackageReference Include="AutoMapper.EF6" Version="2.1.1" />
+		<PackageReference Include="EFCoreSecondLevelCacheInterceptor" Version="3.3.0" />
+		<PackageReference Include="JetBrains.Annotations" Version="2021.3.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.16" />
+		<PackageReference Include="MikyM.Net5.Autofac.Extensions" Version="1.0.0" />
+		<PackageReference Include="MikyM.Net5.Common.Domain" Version="1.0.0" />
+		<PackageReference Include="MikyM.Net5.Common.Utilities" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
